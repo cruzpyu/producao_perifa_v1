@@ -62,13 +62,13 @@ define gui.interface_text_color = '#ffffff'
 ## Fontes e tamanhos de fonte ##################################################
 
 ## A fonte usada para o texto do jogo.
-define gui.text_font = "./fonts/upheavtt.ttf"
+define gui.text_font = "fonts/upheavtt.ttf"
 
 ## A fonte usada para os nomes dos caracteres.
-define gui.name_text_font = "./fonts/upheavtt.ttf"
+define gui.name_text_font = "fonts/upheavtt.ttf"
 
 ## A fonte usada para o texto fora do jogo.
-define gui.interface_text_font = "./fonts/upheavtt.ttf"
+define gui.interface_text_font = "fonts/upheavtt.ttf"
 
 ## O tamanho do texto normal do diálogo.
 define gui.text_size = 33

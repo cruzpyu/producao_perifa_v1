@@ -38,7 +38,7 @@ Joguinho de terror feito no intuito de aperfeiçoar minhas habilidades no Ren'py
 ## construída. Ele deve ser somente ASCII e não deve conter espaços, dois pontos
 ## ou ponto e vírgula.
 
-define build.name = "Estudo"
+define build.name = "producao_perifa"
 
 
 ## Sons e música ###############################################################
