@@ -13,6 +13,8 @@ image cabin = 'images/scenes/cabin.jpg'
 image inside cabin = 'images/scenes/inside-cabin.jpg'
 image diary = 'images/scenes/diary.jpg'
 
+image transparency = Movie(channel='movie', play='images/libras.webm', mask='images/libras_mask.webm')
+
 image fire:
     "images/fogo/fogo 1.png"
     0.15
@@ -46,7 +48,12 @@ label start:
         xalign 0.5
         yalign 0.5
 
+    show transparency with dissolve
+    # $ renpy.movie_cutscene('images/teste.webm')
+
     "Você está em uma encruzilhada na floresta."
+
+    hide transparency 
 
     show Anitta normal:
         xalign 0.5
@@ -87,7 +94,7 @@ label animation_test:
 label video_test:
 
     a "SERÁ SE VAI"
-    $ renpy.movie_cutscene('images/video.ogv')
+    $ renpy.movie_cutscene('images/cavalete.webm')
 
     "ihhhhhhhhhh"
 
